@@ -38,7 +38,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 ENV APT_PROXY_FILE=/etc/apt/apt.conf.d/01proxy
 
-ENV USER=gordon
+ENV USER=samir
 ARG USER_ID="${USER_ID:-1000}"
 ARG USER_GID="${USER_GID:-1000}"
 ENV IMAGE_VERSION=2502.1
