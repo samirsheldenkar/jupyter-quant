@@ -7,8 +7,8 @@ on:
           - v*
 
 env:
-  IMAGE_NAME: gnzsnz/jupyter-quant
-  GH_IMAGE_NAME: ghcr.io/quantbelt/jupyter-quant
+  IMAGE_NAME: samirsheldenkar/jupyter-quant
+  GH_IMAGE_NAME: ghcr.io/samirsheldenkar/jupyter-quant
   PLATFORMS: linux/amd64,linux/arm64
   PYPI_PACKAGE: jupyter-quant
   PYPI_BASE_URL: https://pypi.org/p
